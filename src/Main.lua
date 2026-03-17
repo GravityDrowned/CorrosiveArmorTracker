@@ -31,6 +31,7 @@ local function OnAddOnLoaded(eventCode, addOnName)
     -- Initialize modules
     CAT.Tracking.Initialize()
     CAT.UI.Initialize()
+    CAT.Settings.Initialize()
     
     -- Register slash command
     SLASH_COMMANDS["/cat"] = CAT.SlashCommand

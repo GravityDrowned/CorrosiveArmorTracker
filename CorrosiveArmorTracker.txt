@@ -4,7 +4,9 @@
 ## Description: Warns when opponents activate Corrosive Armor ultimate
 ## Version: 1.0.0
 ## Author: ESO Addon Developer
+## DependsOn: LibAddonMenu-2.0>=30
 
 src/Main.lua
 src/Tracking.lua
 src/UI.lua
+src/Settings.lua
