@@ -12,8 +12,8 @@ local warningBackground = nil
 function CAT.UI.Initialize()
     -- Create top-level window
     warningContainer = WINDOW_MANAGER:CreateTopLevelWindow("CATWarningContainer")
-    warningContainer:SetDimensions(700, 150)
-    warningContainer:SetAnchor(CENTER, GuiRoot, CENTER, 0, -150)
+     warningContainer:SetDimensions(500, 80)
+     warningContainer:SetAnchor(TOP, GuiRoot, TOP, 0, 100)
     warningContainer:SetHidden(true)
     warningContainer:SetDrawLayer(DL_OVERLAY)
     warningContainer:SetDrawLevel(1000)
