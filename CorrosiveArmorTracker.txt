@@ -1,11 +1,10 @@
 ## Title: Corrosive Armor Tracker
 ## APIVersion: 101044 101045
 ## SavedVariables: CorrosiveArmorTrackerSavedVars
-## Description: Tracks and warns when opponents activate Corrosive Armor ultimate
+## Description: Warns when opponents activate Corrosive Armor ultimate
 ## Version: 1.0.0
 ## Author: ESO Addon Developer
 
-CorrosiveArmorUI.xml
-CorrosiveArmorTracker.lua
-CorrosiveArmorUI.lua
-Settings.lua
+src/Main.lua
+src/Tracking.lua
+src/UI.lua
